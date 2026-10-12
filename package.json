@@ -1,0 +1,24 @@
+{
+  "name": "gps-attendance-system",
+  "version": "1.0.0",
+  "description": "GPS-Based Dynamic Attendance & Anti-Proxy System for college events",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "mongodb-memory-server": "^10.0.0"
+  }
+}
